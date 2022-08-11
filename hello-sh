@@ -1,0 +1,7 @@
+#! /usr/bin/bash
+
+echo "Content-type: text/plain; charset=UTF-8"
+echo ""
+echo "hello from bash"
+echo "my name:" $QUERY_STRING
+env | sort

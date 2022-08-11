@@ -1,0 +1,8 @@
+#! /usr/bin/python3.8
+import os
+print ("Content-type: text/plain; charset=UTF-8\n")
+print ("hello from python")
+for k, v in os.environ.items():
+    print(f'{k}={v}')
+
+#print (os.environ)
